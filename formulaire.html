@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Pique-nique Multi-associations</title>
+</head>
+<body>
+
+<h1>Pique-nique Multi-associations</h1>
+<h2>Inscriptions</h2>
+<form action="" method="get">
+  <p>
+    <label for="prenom" class="left">Prénom :</label> 
+    <input name="prenom" id="prenom" type="text" size="30" maxlength="30" />
+  </p>
+    <p>
+    <label for="motdepasse" class="left">Mot de passe : </label>
+    <input name="motdepasse" id="motdepasse" type="password" size="30" maxlength="30" />
+  </p>
+  <p>  
+    <label for="association" class="left">Association :</label> 
+    <select name="association" id="association">
+      <option value="x">AssociationX</option>
+      <option value="y">AssociationY</option>
+      <option value="z">AssociationZ</option>
+    </select>
+  </p>
+  <p>
+    <label class="left">Disponibilités pour la semaine du 22 juin :</label>
+    <input name="lundi" id="lundi" type="checkbox" /><label for="lundi">Lundi</label>
+    <input name="mardi" id="mardi" type="checkbox" /><label for="mardi">Mardi</label>
+    <input name="mercredi" id="mercredi" type="checkbox" /><label for="mercredi">Mercredi</label>
+    <input name="jeudi" id="jeudi" type="checkbox" /><label for="jeudi">Jeudi</label>
+    <input name="vendredi" id="vendredi" type="checkbox" /><label for="vendredi">Vendredi</label>
+  </p>
+  <p>
+    <label class="left">Contribution :</label>
+    <input name="contribution" value="entree" id="entree" type="radio" /><label for="entree">Entrée</label>
+    <input name="contribution" value="plat" id="plat" type="radio" /><label for="plat">Plat</label>
+    <input name="contribution" value="dessert" id="dessert" type="radio" /><label for="dessert">Dessert</label>
+  </p>
+  <p>
+    <label for="commentaires" class="left">Commentaires : </label>
+    <textarea name="commentaires" id="commentaires" cols="30" rows="5">
